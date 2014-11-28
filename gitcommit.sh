@@ -1,5 +1,6 @@
 #!/bin/bash
-git add . && \
-git add -u && \
-git commit -am "update `date`"
+cd /etc/puppet/
+git add . 
+git add -u 
+git commit  -am "update `date`"
 git push
