@@ -16,8 +16,7 @@
    #}
 
 class nrpe {
-   package {
-      "nrpe.x86_64"
+   package { 'nrpe.x86_64':
          ensure => installed,
             alias => 'nrpe',
                ;
