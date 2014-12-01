@@ -18,6 +18,6 @@ file {'/tmp/example-ip':	#resource type file
 
 node lust {
 
-include nrpe
+include nagios	
 
 }
