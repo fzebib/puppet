@@ -24,7 +24,7 @@ class nrpe {
    }
    
    service {
-      'nrpe':
+      'nrpe.x86_64':
          ensure => running,
          alias => 'nrpe',
          hastatus    => true,
